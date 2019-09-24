@@ -1,0 +1,64 @@
+@relation aux
+@attribute col_1 numeric
+@attribute col_2 numeric
+@attribute col_3 numeric
+@attribute col_4 numeric
+@attribute col_5 numeric
+@attribute col_6 numeric
+@attribute col_7 numeric
+@attribute col_8 numeric
+@attribute col_9 numeric
+@attribute class {'minority','majority'}
+@data
+1,5,5,2,4.5,1.5,1.5,1,5,'minority'
+2,10,5,5,9,4,4,3,8,'minority'
+3,11,11,4,9,6,6,3,11,'minority'
+4,11.25,10,5,9.5,7,5,3,9,'majority'
+5,11,7,4,10,7,6,5,9.5,'majority'
+6,11,13,3,7,10,5,3.5,10,'majority'
+7,9,10.5,2.5,7.5,7,5,3,12,'majority'
+8,9,10,2,7,7,6,4.5,10,'majority'
+9,9,13,2,8,10,8,5,11.5,'majority'
+10,9,12,2,7,7,5,5,10,'majority'
+11,6,10,3,7,6,8,6,11,'majority'
+12,7,9,2.5,5,7,7,5,10,'majority'
+13,5,11,2,5,9,10,4,10.5,'majority'
+14,7,7,3,4,9,9,6,10,'majority'
+15,10,8,3,3,8,9,5,11,'majority'
+16,13,10.5,3,4,12,9,6.5,11,'majority'
+17,5.5,10,4,4,13,7,4,11.5,'majority'
+18,10.5,11.5,5,4,15,7,6,12,'majority'
+19,9,9,6,4.5,17,7,3,12.5,'majority'
+20,6,11,8,3.5,20,7,6,13,'majority'
+21,8,13,7,6,16,8,5,11,'majority'
+22,15,15,11,5,17,9,8,11,'majority'
+23,13,14,9,6,15,7,4.5,11,'majority'
+24,14,17,10,6,12,8,4,13,'majority'
+25,15,16,10,5,13,8,4,11,'majority'
+26,14.5,14,11,7,13,8,6.5,13,'majority'
+27,14,11,14,6,18,8,4,12,'minority'
+28,14,16,15,5,20,8,5,14,'majority'
+29,15,12,12,3,16,7,3,10,'minority'
+30,16,11.5,10,5,16,7,5.5,13,'minority'
+31,13,11,12,4,16,10,3,8,'minority'
+32,12,13,13,4.5,16,8,2,7.5,'minority'
+33,9,12,9.5,4,15,7,2,8,'minority'
+34,11.5,12,8,4,11,7,2,8,'minority'
+35,9.5,13,8,4,11,11,2,7,'minority'
+36,12,9,9,4,11,11,3,10,'minority'
+37,13,15,11,6,8.5,12,2,7,'majority'
+38,13.5,12,13,6,10,10,2,10,'minority'
+39,15,7,16,4,6,11,2,8,'majority'
+40,15.5,7,18,3,10,11,2,10,'minority'
+41,14,10,12,3.5,8,11,2,9,'majority'
+42,14,5,15,8,8,8.5,1.5,10,'minority'
+43,10,3.5,14,6,6,10,1.5,8,'minority'
+44,13,5,20,4.5,8,9,1.5,11,'minority'
+45,11,14,14,6,6,11,1,10,'majority'
+46,8.5,13,7,4.5,6,7,1,7,'minority'
+47,7.5,19,7.5,4,7,5,1,5,'minority'
+48,6,11.5,4,3,3,3,1,7,'minority'
+49,5,10,5,3,3,3,0.5,8,'minority'
+50,4,6,3,2,2,1.5,0.5,6,'minority'
+51,3,6.5,1.5,1,2,1,0,7.5,'minority'
+52,2,5,0.5,0.5,2,0,0,2.5,'minority'
