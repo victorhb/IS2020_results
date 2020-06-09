@@ -48,6 +48,8 @@ result$neighborhood.N3_partial.minority
 result$SVM_radial_1_1.gmean
 ```
 
+For a summary of these results, please check this [table](summary_results_exp1.csv)
+
 ## Results of the experiment 2
 
 The **results_exp2** directory contains all results on the arff format for each dataset, considering the second experiment in the paper. Each line represents a fold and iteration, and each column represents a data complexity on the training set or a predictive performance of a classification algorithm after applying a preprocessing technique.
@@ -62,3 +64,4 @@ result$SMOTE.neighborhood.N3_partial.minority
 # Getting the gmean performance of SVM classifier on all folds and iterations after applying SMOTE
 result$SMOTE.SVM.gmean
 ```
+For a summary of these results, please check this [table](summary_results_exp2.csv)
