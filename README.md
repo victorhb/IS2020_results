@@ -39,7 +39,7 @@ The **results_exp1** directory contains all results on the arff format for each 
 
 ```r
 # Reading the results of the first experiment for the Australian dataset
-result = read.arff("results_exp1/Australian.arff")
+result = read.arff("results_exp1/datacomplexitymeasures/Australian.arff")
 
 # Getting the value of N3 measure for the minority class for all folds and iterations
 result$neighborhood.N3_partial.minority
